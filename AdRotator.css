@@ -1,0 +1,166 @@
+th,td{
+	border: 4px solid transparent;
+	border-radius: 25px;
+	color : crimson;
+	background: turquoise;
+	text-align: center;
+}
+
+p.italic {
+    color: maroon;
+    font-style: italic;
+}
+nav {
+    display: block;
+    background-color: turquoise;
+}
+h1{
+	text-align: center;
+	color: gold;
+}
+a:hover
+{
+	color: gold;
+}
+div{
+	display: flex;
+    justify-content: center;
+    align-items: center;
+}
+form
+{
+	display: inline-block;
+	color : crimson;
+	background: turquoise;
+}
+body{
+	background-color: #fffdd0;
+}
+button{
+	background-color: turquoise;
+	border-radius: 25px;
+}
+button:active, button:hover{
+	background-color: gold;
+}
+
+label{
+	display: inline-block;
+	width: 100px;
+	margin-left: 10px;
+}
+span:hover
+{
+	color: gold;
+}
+
+#infobox
+{
+	color: crimson;
+}
+#input{
+
+	border: 1px solid gold;
+	border-radius: 10%;
+}
+#search
+{
+	display: flex;
+    align-items: center;
+	color : crimson;
+}
+#map
+{
+	/*justify-content: center;
+	align-items:center;*/
+	position: relative;
+	width: 90%;
+	height: 90vh;
+	margin-left: 5%;
+	border-radius: 3%;
+	margin-bottom: 5%;
+}
+#container {
+
+  position: relative;
+}
+#selector {
+  position: absolute;
+  margin-left: 5%;
+  top: 10%;
+  left: 5%;
+  z-index: 10;
+}
+
+#dimg
+{
+	max-width: 300px;
+	max-height:300px;
+	display: block;
+	align-items: center;
+	margin: auto;
+	border-radius: 40px;
+}
+#ddiv
+{
+	position: absolute;
+	left: 0;
+	right: 0;
+	width: 500px;
+	height:500px;
+	margin: 0 auto;
+	border-radius: 25px;
+	background-color: gold;
+	border: 2px solid crimson;
+	z-index: 20;
+}
+#keller1, #keller2, #keller3, #keller4, #keller5, #keller6, #keller7, #anderson1, #anderson2, #mech1, #fraser1, #fraser2,
+#bruininks1, #bruininks2
+{
+	position: relative;
+}
+
+#address{
+	width: 40%;
+	height: 20px;
+	margin-left: 5px;
+}
+#spaceMe{
+	padding: 8px;
+}
+#submit
+{
+	background-color: crimson;
+	border-radius: 20%;
+	height: 40px;
+}
+#welcome
+{
+	margin-right:10%;
+}
+#info
+{
+	color: maroon;
+}
+#banner{
+	display: block;
+	margin: 0 auto;
+	text-decoration: none;
+	color: black;
+	height: 1000;
+	width: 365;
+	border-radius: 5%;
+}
+#tooltip {
+position: absolute;
+bottom: 50px;
+background: white;
+padding: 10px;
+max-width: 200px;
+margin: 0 auto;
+display: none;
+}
+
+#banner:hover #tooltip {
+display: block;
+}
